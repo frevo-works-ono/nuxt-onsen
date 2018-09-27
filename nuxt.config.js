@@ -43,10 +43,14 @@ module.exports = {
   ],
   manifest: {
     name: "Nuxt.js OnsenUI",
-    lang: 'ja'
+    lang: 'ja',
+    start_url:'/nuxt-onsen-app/'
   },
   workbox: {
-    dev: true, //開発環境でもPWAできるように
-  }
+    dev: true
+  },
+  router: {
+    base: "/nuxt-onsen-app/"
+  },
 }
 

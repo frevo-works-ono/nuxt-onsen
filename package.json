@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
+    "chart.js": "^2.7.2",
     "nuxt": "^1.0.0",
     "onsenui": "^2.10.4",
+    "vue-chartjs": "^3.4.0",
     "vue-onsenui": "^2.6.1"
   },
   "devDependencies": {
