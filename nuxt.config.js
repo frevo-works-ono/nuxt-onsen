@@ -44,7 +44,17 @@ module.exports = {
   manifest: {
     name: "Nuxt.js OnsenUI",
     lang: 'ja',
-    start_url:'/nuxt-onsen-app/'
+    start_url:'/nuxt-onsen-app/',
+    short_name: 'NuxtOnsen',
+    title: 'Nuxt.js OnsenUI',
+    display: "standalone",
+    icons: [
+      {
+          "src": "/nuxt-onsen-app/logo.png",
+          "sizes": "144x144",
+          "type": "image/png"
+      }
+  ],
   },
   workbox: {
     dev: true
